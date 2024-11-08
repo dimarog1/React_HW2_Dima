@@ -1,0 +1,43 @@
+.sidebar {
+    margin-top: 60px;
+    width: 250px;
+    background-color: #fff8f8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 900;
+    padding: 20px;
+}
+
+.closed {
+    display: none;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.input, .select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
